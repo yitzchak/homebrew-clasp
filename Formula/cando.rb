@@ -2,7 +2,7 @@ class Cando < Formula
   desc "Common Lisp implementation and Cando chemistry system"
   homepage "https://github.com/clasp-developers/clasp"
   url "https://github.com/clasp-developers/clasp.git", using: :git, branch: "main"
-  version "1.0.0"
+  version "1.0.0-220-g0f62839c7"
   license "GPL-2.0-or-later"
 
   depends_on "boost" => :build
