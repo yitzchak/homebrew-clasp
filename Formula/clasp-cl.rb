@@ -1,11 +1,8 @@
 class ClaspCl < Formula
   desc "Common Lisp implementation that brings Common Lisp and C++ together"
   homepage "https://github.com/clasp-developers/clasp"
-  url "https://github.com/clasp-developers/clasp.git",
-      using: :git,
-      branch: "main"
+  url "https://github.com/clasp-developers/clasp.git", using: :git, branch: "main"
   version "1.0.0"
-  sha256 ""
   license "GPL-2.0-or-later"
   head "https://github.com/clasp-developers/clasp.git"
 
@@ -29,4 +26,3 @@ class ClaspCl < Formula
     assert_match "clasp-boehmprecise-1.0.0", shell_output("#{bin}/clasp --version")
   end
 end
-
